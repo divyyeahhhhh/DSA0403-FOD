@@ -2,8 +2,8 @@ import numpy as np
 from scipy.stats import t
 
 # Sample data (replace with your actual data)
-drug_group = [2.3, 1.8, 2.5, 2.0, 2.2, ...]  # List of blood pressure reductions for drug group
-placebo_group = [1.5, 1.0, 1.8, 1.2, 1.6, ...]  # List of blood pressure reductions for placebo group
+drug_group = [2.3, 1.8, 2.5, 2.0, 2.2]  # Replace with actual blood pressure reductions for the drug group
+placebo_group = [1.5, 1.0, 1.8, 1.2, 1.6]  # Replace with actual blood pressure reductions for the placebo group
 
 # Calculate sample statistics for each group
 mean_drug = np.mean(drug_group)
